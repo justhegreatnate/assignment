@@ -6,9 +6,9 @@ const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 // MySQL connection
 const connection = mysql.createConnection({
   host: 'localhost',
-  user: 'your_username',
-  password: 'your_password',
-  database: 'your_database'
+  user: 'root',
+  password: 'password',
+  database: 'mydatabase'
 });
 
 // Output to CSV file
